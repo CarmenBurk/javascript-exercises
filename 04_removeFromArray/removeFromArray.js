@@ -7,7 +7,7 @@
             let value = array[index]
             for (const removedValue of removedArray) {
                 console.log("to be removed: "+ removedValue)
-                if (value == removedValue){
+                if (value === removedValue){
                 console.log(value + " is equal to " + removedValue +" and the current index is "+index)
                 newArray.splice(index,1)
                 index --;
